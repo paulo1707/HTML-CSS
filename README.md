@@ -1,3 +1,3 @@
 # HTML-CSS
  curso 
- <a href="https://paulo1707.github.io/HTML-CSS/">curso de informatica</a>
+ <a href="file:///C:/Users/sn00138248/Documents/estudo/HTML-CSS/2trabalho/index.html">curso de informatica</a>
