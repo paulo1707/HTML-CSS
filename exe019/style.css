@@ -11,23 +11,22 @@
 *{
     margin: 0px;
     padding:0px;
+    font-size: 1em;
 }
 html body{
    min-height: 100vh;
    background-color: dark;
+   font-family: var(--fonte1);
 }
-
 header{
    background-color: black;
     color: white;
-    text-align: center;
-    
+    text-align: center;   
 }
 header > h1 {
 padding-top: 50px;
 font-variant: small-caps;
 }
-
 header > p {
    padding-bottom: 50px; 
 }
@@ -39,7 +38,6 @@ header > a, footer a {
 header a :hover, footer a:hover{
  text-decoration: underline;
 }
-
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
