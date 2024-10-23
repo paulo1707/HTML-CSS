@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        hr{
+           border: 1px solid black;
+           width: auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>header1</th>
+            <td>header2</td>
+            <td>header3</td>
+            <td>header4</td>
+          </tr>
+          <tr>
+            <th rowspan="4">span rows</th>
+            <td colspan="3"> span coulmns</td>
+            
+            
+          </tr>
+          <tr>
+            <th colspan="2">span coulmns</th>
+            <td rowspan="3">Span both</td>
+          </tr>
+          <tr>
+            <th rowspan="2">span rows</th>
+            <td>span coulmns</td>
+          </tr>
+          <tr>
+            <th> Span both</th>
+          
+          </tr>
+      </table>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="3">ooooo</th>
+            <td rowspan="3">ppppppp1</td>
+            <td colspan="2">ppppppp2</td>
+            <td rowspan="2">ppppppp3</td>
+            
+        </tr>
+        <tr>
+            <th>ooooo7</th>
+            <td>ppppppp8</td>
+            <td>ppppppp9</td>
+            <td>ppppppp01</td>
+            <td>ppppppp02</td>
+            
+           
+        </tr>
+        <tr>
+            <th colspan="3">ooooo05</th>
+            <td colspan="2">ppppppp06</td>
+            <td col>ppppppp07</td>
+           
+           
+            
+        </tr>
+        <tr>
+            <th colspan="7">ooooo12</th>
+           
+        </tr>
+        <tr>
+            <th>ooooo19</th>
+            <td>ppppppp20</td>
+            <td>ppppppp21</td>
+            <td>ppppppp22</td>
+            <td>ppppppp23</td>
+            <td>ppppppp24</td>
+            <td>ppppppp25</td>
+        </tr>
+    </table>
+    <hr>
+    <tr>
+        <table>
+            <tr>
+                <th rowspan="2">ooooo1</th>
+                <td>ppppppp2</td>
+                <td colspan="5">ppppppp3</td>
+            </tr>
+            <tr>
+                <th>ooooo8</th>
+                <td>ppppppp9</td>
+                <td colspan="2">ppppppp01</td>
+                <td colspan="2">ppppppp02</td>
+                <td>00000000000</td>
+                <td>ppppppp03</td>
+
+            </tr>
+            <tr>
+                <th rowspan="4">ooooo06</th>
+                <td>ppppppp07</td>
+                <td>ppppppp08</td>
+                <td colspan="2">ppppppp09</td>
+                <td colspan="2">ppppppp10</td>
+                <td>ppppppp11</td>
+            </tr>
+            <tr>
+                <th>ooooo13</th>
+                <td>ppppppp14</td>
+                <td colspan="2">ppppppp15</td>
+                <td colspan="2">ppppppp16</td>
+                <td>ppppppp17</td>
+            </tr>
+            <tr>
+                <th>ooooo20</th>
+                <td>ppppppp21</td>
+                <td colspan="2">ppppppp22</td>
+                <td colspan="2">ppppppp23</td>
+                <td>ppppppp24</td>
+            </tr>
+            <tr>
+                <th>ooooo27</th>
+                <td>ppppppp28</td>
+                <td colspan="2">ppppppp29</td>
+                <td colspan="2">ppppppp30</td>
+                <td>ppppppp31</td>
+                <td>ppppppp32</td>
+            </tr>
+        </table>
+    </tr>
+</body>
+</html>
