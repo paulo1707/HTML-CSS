@@ -4,4 +4,4 @@
 <H3>K</H3>
 <a href="https://paulo1707.github.io/HTML-CSS/exe006">k</a>
 <H3>H. D OK</H3>
-<a href="https://paulo1707.github.io/HTML-CSS/EXE024">H.D Ok</a>
+<a href="https://paulo1707.github.io/HTML-CSS/EXE024">H.DOk</a>
